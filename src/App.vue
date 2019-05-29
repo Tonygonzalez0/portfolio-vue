@@ -1,17 +1,19 @@
 <template>
   <div>
-    <hello-world />
-    <button class="button is-primary">This is a button</button>
+    <nav-bar/>
+    <hero/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavBar from './components/NavBar.vue'
+import Hero from './components/Hero.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    NavBar,
+    Hero
   },
 }
 </script>

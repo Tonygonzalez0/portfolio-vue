@@ -3,7 +3,7 @@ import App from './App.vue'
 
 Vue.config.productionTip = false
 
-require("./assets/main.scss")
+require("./stlyes/main.scss")
 
 new Vue({
   render: h => h(App),
